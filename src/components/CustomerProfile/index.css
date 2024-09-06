@@ -1,0 +1,37 @@
+.customer-profile {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.customer-profile h2 {
+  text-align: center;
+}
+
+.profile-details {
+  font-size: 1.2em;
+}
+
+.profile-details p {
+  margin: 10px 0;
+}
+
+.delete-btn {
+  height: 30px;
+  width: 70px;
+  border: 0px solid #ccc;
+  background-color: #ccc;
+  border-radius: 12px;
+  color: #9b9595;
+  padding: 0;
+  margin-left: 0;
+  font-size: 12px;
+}
+
+.update-link {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
