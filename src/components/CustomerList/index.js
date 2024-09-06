@@ -27,7 +27,7 @@ class CustomerList extends Component {
 
     try {
       const response = await axios.get(
-        `http://localhost:8000/customers?_page=${currentPage}&_limit=${customersPerPage}&search=${search}&filterName=${filterName}&filterCity=${filterCity}`
+        `https://qwipo-backend-uko3.onrender.com/customers?_page=${currentPage}&_limit=${customersPerPage}&search=${search}&filterName=${filterName}&filterCity=${filterCity}`
       );
       this.setState({
         customers: response.data.customers,

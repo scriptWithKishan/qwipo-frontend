@@ -15,10 +15,10 @@ class CustomerProfile extends Component {
 
     try {
       const customerResponse = await axios.get(
-        `http://localhost:8000/customers/${id}`
+        `https://qwipo-backend-uko3.onrender.com/customers/${id}`
       );
       const addressesResponse = await axios.get(
-        `http://localhost:8000/addresses/${id}`
+        `https://qwipo-backend-uko3.onrender.com/addresses/${id}`
       );
       this.setState({
         customer: customerResponse.data,

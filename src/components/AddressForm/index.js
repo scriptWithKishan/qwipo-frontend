@@ -21,7 +21,7 @@ class AddressForm extends Component {
     const { address, city, state, postalCode } = this.state;
 
     try {
-      await axios.put(`http://localhost:8000/addresses/${id}`, {
+      await axios.put(`https://qwipo-backend-uko3.onrender.com/addresses/${id}`, {
         address,
         city,
         state,

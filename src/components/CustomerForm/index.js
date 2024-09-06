@@ -20,7 +20,7 @@ class CustomerForm extends Component {
     const { firstName, lastName, phoneNumber, email } = this.state;
 
     try {
-      await axios.post("http://localhost:8000/customers", {
+      await axios.post("https://qwipo-backend-uko3.onrender.com/customers", {
         first_name: firstName,
         last_name: lastName,
         phone_number: phoneNumber,

@@ -40,7 +40,7 @@ class UpdateCustomer extends Component {
     const { history } = this.props;
 
     try {
-      await axios.put(`http://localhost:8000/customers/${id}`, {
+      await axios.put(`https://qwipo-backend-uko3.onrender.com/customers/${id}`, {
         first_name: firstName,
         last_name: lastName,
         phone_number: phoneNumber,
